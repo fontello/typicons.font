@@ -81,7 +81,7 @@ meta:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
 
-  css_prefix: "icon-"
+  css_prefix_text: "icon-"
   columns: 4
 
 transform:
@@ -102,7 +102,7 @@ font:
   copyright: (c) Stephen Hutchings 2012
 
   ascent: 850
-  descent: 150
+  descent: -150
   weight: Book
 
 
