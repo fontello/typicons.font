@@ -44,8 +44,11 @@ plugins:
   - removeUnusedNS
   - transformsWithOnePath:
       scale: 1.25
+      negativeExtraSpace: false
   - transformsWithOnePath:
       hcrop: true
+      negativeExtraSpace: false
   - transformsWithOnePath:
       vcenter: true
+      negativeExtraSpace: false
 
