@@ -16,10 +16,12 @@ PWD  := $(shell pwd)
 BIN  := ./node_modules/.bin
 
 
+dist: font html
+
 dump:
 	rm -f -r ./src/svg/
 	mkdir ./src/svg/
-	${BIN}/svg-font-dump -c `pwd`/config.yml -f -i ./src/original/Typicons-Regular.svg -o ./src/svg/ -d diff.yml
+	${BIN}/svg-font-dump -c `pwd`/config.yml -f -i ./src/original/typicons.svg -o ./src/svg/ -d diff.yml
 	${BIN}/svgo --config `pwd`/dump.svgo.yml -f ./src/svg
 
 
