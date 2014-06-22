@@ -91,7 +91,7 @@ transform:
   #offset: -0.44
 
 font:
-  version: "2.0"
+  version: "2.0.2"
 
   # use !!!small!!! letters a-z, or Opera will fail under OS X
   # fontname will be also used as file name.
